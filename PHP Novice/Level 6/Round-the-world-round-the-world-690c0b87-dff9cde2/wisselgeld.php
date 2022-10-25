@@ -20,7 +20,7 @@ foreach ($data as $value) {
     if ($wissel >= 1) {
         $input = $input - ($value * $wissel);
 
-        echo $wissel . " x " . $value . " euro" . PHP_EOL;
+        echo $wissel . " x " . $value . " Euro" . PHP_EOL;
     }
 }
 foreach (DEFINE as $value) {
@@ -30,7 +30,7 @@ foreach (DEFINE as $value) {
         $cent = $cent - ($value * $aantal);
 
 
-        echo $aantal . " x " . $value . " cent" . PHP_EOL;
+        echo $aantal . " x " . $value . " Cent" . PHP_EOL;
     }
 }
 ?>
